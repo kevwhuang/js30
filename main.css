@@ -1,0 +1,213 @@
+body {
+    animation: fade 2s ease-in;
+    background: #111;
+}
+
+h1 {
+    align-items: center;
+    color: #eee;
+    display: flex;
+    font-size: 4vh;
+    font-weight: bold;
+    height: 5vh;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+    top: 5vh;
+    white-space: nowrap;
+}
+
+h2 {
+    align-items: center;
+    color: #eee;
+    display: flex;
+    font-size: 4vh;
+    font-weight: bold;
+    height: 5vh;
+    justify-content: center;
+    overflow: hidden;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+iframe {
+    border-width: 0;
+    height: 80vh;
+    transform: translateX(2.5vw);
+    width: 95vw;
+}
+
+#top {
+    height: 10vh;
+}
+
+#mid {
+    height: 80vh;
+}
+
+#bot {
+    height: 10vh;
+}
+
+.material-symbols-outlined {
+    color: #eee;
+    cursor: pointer;
+    font-size: inherit;
+    font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 50, 'opsz' 48;
+}
+
+.material-symbols-outlined:nth-of-type(2) {
+    transform: scale(-1, 1);
+}
+
+.material-symbols-outlined:hover {
+    color: tan;
+}
+
+.material-symbols-outlined:active {
+    color: tan;
+    font-variation-settings: 'FILL' 1;
+}
+
+@media screen and (max-width: 1280px) {
+
+    h1,
+    h2 {
+        font-size: 3vh;
+        height: 4vh;
+        top: 4vh;
+    }
+
+    iframe,
+    #mid {
+        height: 84vh;
+    }
+
+    #top,
+    #bot {
+        height: 8vh;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    h1,
+    h2 {
+        font-size: 2vh;
+        height: 3vh;
+        top: 3vh;
+    }
+
+    iframe,
+    #mid {
+        height: 88vh;
+    }
+
+    #top,
+    #bot {
+        height: 6vh;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    h1 {
+        top: 0;
+    }
+
+    iframe {
+        height: 94vh;
+        transform: none;
+        width: 100vw;
+    }
+
+    #mid {
+        height: 94vh;
+    }
+
+    #top,
+    #bot {
+        height: 3vh;
+    }
+
+}
+
+@media screen and (max-width: 240px) {
+
+    h1,
+    h2 {
+        font-size: 1vh;
+    }
+
+}
+
+@media screen and (max-height: 480px) {
+
+    @media (min-width: 480px) {
+
+        h1,
+        h2 {
+            font-size: 3vh;
+            top: 0;
+        }
+
+        iframe,
+        #mid {
+            height: 94vh;
+        }
+
+        #top,
+        #bot {
+            height: 3vh;
+        }
+
+    }
+
+    @media (min-width: 768px) {
+
+        iframe,
+        #mid {
+            height: 92vh;
+        }
+
+        #top,
+        #bot {
+            height: 4vh;
+        }
+
+    }
+
+    @media (min-width: 1280px) {
+
+        iframe,
+        #mid {
+            height: 90vh;
+        }
+
+        #top,
+        #bot {
+            height: 5vh;
+        }
+
+    }
+
+}
+
+@keyframes fade {
+
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
