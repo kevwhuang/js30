@@ -1,10 +1,17 @@
 {
     "name": "javascript-30",
-    "version": "23.03.01",
+    "version": "23.04.01",
     "description": "JavaScript 30",
     "author": "Kevin Huang",
     "license": "MIT",
     "main": "main.js",
+    "scripts": {
+        "build": "tsc --watch",
+        "eslint": "eslint '**/*.{js,mjs,ts}'",
+        "eslinthtml": "eslint **/*.html",
+        "htmllint": "html-validate **/*.{html,hbs}",
+        "stylelint": "stylelint **/*.{css,sass,html}"
+    },
     "homepage": "https://github.com/kevwhuang/javascript-30#readme",
     "repository": {
         "type": "git",
@@ -12,7 +19,26 @@
     },
     "dependencies": {},
     "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "*",
+        "@typescript-eslint/parser": "*",
+        "eslint": "*",
         "eslint-config-airbnb-base": "*",
-        "nodemon": "*"
+        "eslint-plugin-html": "*",
+        "html-validate": "*",
+        "nodemon": "*",
+        "postcss": "*",
+        "postcss-html": "*",
+        "postcss-loader": "*",
+        "postcss-sass": "*",
+        "sass": "*",
+        "sass-loader": "*",
+        "style-loader": "*",
+        "stylelint": "*",
+        "stylelint-config-sass-guidelines": "*",
+        "stylelint-config-standard": "*",
+        "ts-loader": "*",
+        "ts-node": "*",
+        "tslib": "*",
+        "typescript": "*"
     }
 }

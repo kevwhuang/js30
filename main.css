@@ -145,7 +145,6 @@ iframe {
 }
 
 @media screen and (max-height: 480px) {
-
     @media (min-width: 480px) {
 
         h1,
@@ -197,7 +196,6 @@ iframe {
 }
 
 @keyframes fade {
-
     0% {
         opacity: 0;
     }
@@ -209,5 +207,4 @@ iframe {
     100% {
         opacity: 1;
     }
-
 }

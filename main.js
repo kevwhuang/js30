@@ -37,6 +37,7 @@ function back5() {
     typeof pos !== 'number' ? pos = manifest.length - 5 : pos -= 5;
     if (pos < 0) pos += manifest.length;
 
+    document.querySelector('iframe').title = `html/${manifest[pos]}.html`;
     document.querySelector('iframe').src = `html/${manifest[pos]}.html`;
     document.querySelector('h1').textContent = `${manifest[pos].replaceAll('-', ' ')}`;
 }
@@ -45,6 +46,7 @@ function back() {
     typeof pos !== 'number' ? pos = manifest.length - 1 : pos -= 1;
     if (pos < 0) pos = manifest.length - 1;
 
+    document.querySelector('iframe').title = `html/${manifest[pos]}.html`;
     document.querySelector('iframe').src = `html/${manifest[pos]}.html`;
     document.querySelector('h1').textContent = `${manifest[pos].replaceAll('-', ' ')}`;
 }
@@ -53,6 +55,7 @@ function forward() {
     typeof pos !== 'number' ? pos = 0 : pos += 1;
     if (pos > manifest.length - 1) pos = 0;
 
+    document.querySelector('iframe').title = `html/${manifest[pos]}.html`;
     document.querySelector('iframe').src = `html/${manifest[pos]}.html`;
     document.querySelector('h1').textContent = `${manifest[pos].replaceAll('-', ' ')}`;
 }
@@ -61,6 +64,7 @@ function forward5() {
     typeof pos !== 'number' ? pos = 4 : pos += 5;
     if (pos > manifest.length - 1) pos -= manifest.length;
 
+    document.querySelector('iframe').title = `html/${manifest[pos]}.html`;
     document.querySelector('iframe').src = `html/${manifest[pos]}.html`;
     document.querySelector('h1').textContent = `${manifest[pos].replaceAll('-', ' ')}`;
 }
