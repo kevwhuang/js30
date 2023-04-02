@@ -145,6 +145,7 @@ iframe {
 }
 
 @media screen and (max-height: 480px) {
+
     @media (min-width: 480px) {
 
         h1,

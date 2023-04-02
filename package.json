@@ -9,7 +9,7 @@
         "build": "tsc --watch",
         "eslint": "eslint '**/*.{js,mjs,ts}'",
         "eslinthtml": "eslint **/*.html",
-        "htmllint": "html-validate **/*.{html,hbs}",
+        "htmllint": "html-validate **/*.html",
         "stylelint": "stylelint **/*.{css,sass,html}"
     },
     "homepage": "https://github.com/kevwhuang/javascript-30#readme",
