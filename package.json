@@ -1,13 +1,10 @@
 {
-    "name": "javascript-30",
+    "name": "js30",
     "version": "23.5.1",
     "homepage": "https://kevwhuang.github.io/js30",
     "author": "Kevin Huang",
     "repository": {
         "type": "git",
         "url": "https://github.com/kevwhuang/js30.git"
-    },
-    "devDependencies": {
-        "nodemon": "*"
     }
 }
