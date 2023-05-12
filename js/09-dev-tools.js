@@ -3,8 +3,6 @@ const dogs = [
     { name: 'Snickers', age: 2 },
 ];
 
-document.body.innerText += 'Check the console!';
-
 console.clear();
 console.log('Hello.');
 console.log('Hello, I am a %s string!', '💩');
