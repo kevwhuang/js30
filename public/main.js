@@ -26,7 +26,7 @@ const manifest = [
     '25-events',
     '26-dropdown',
     '27-click-scroll',
-    '28-video-controller',
+    '28-video-speed',
     '29-countdown',
     '30-whack-a-mole',
 ];

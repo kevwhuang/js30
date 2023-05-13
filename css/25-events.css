@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div {
+    padding: 100px;
+    width: 100%;
+}
+
+.one {
+    background: thistle;
+}
+
+.three {
+    background: coral;
+}
+
+.two {
+    background: mistyrose;
+}
