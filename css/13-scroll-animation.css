@@ -12,7 +12,7 @@ h1 {
 
 html {
     background: #ffc600;
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 20px;
     font-weight: 200;
 }
