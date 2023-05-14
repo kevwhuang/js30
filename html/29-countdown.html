@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>29 Countdown</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/29-countdown.css">
+    <script src="../js/29-countdown.js" defer></script>
+</head>
+
+<body>
+    <div class="timer">
+        <div class="timer__controls">
+            <button class="timer__button" data-time="30">30 Secs</button>
+            <button class="timer__button" data-time="300">Quick 5</button>
+            <button class="timer__button" data-time="600">Work 10</button>
+            <button class="timer__button" data-time="1800">Rest 30</button>
+            <button class="timer__button" data-time="3600">Break 60</button>
+
+            <form name="customForm" id="custom">
+                <input type="text" name="minutes" placeholder="Enter minutes." pattern="[0-9]+">
+            </form>
+        </div>
+
+        <div class="display">
+            <h1 class="display__time-left"></h1>
+            <p class="display__end-time"></p>
+        </div>
+    </div>
+</body>
+
+</html>
