@@ -34,8 +34,8 @@ input[type=range]::-moz-range-track {
     border: .2px solid rgba(1, 1, 1, 0);
     border-radius: 1.3px;
     box-shadow:
-        1px 1px 1px rgba(0, 0, 0, 0),
-        0 0 1px rgba(13, 13, 13, 0);
+        0 0 1px rgba(13, 13, 13, 0),
+        1px 1px 1px rgba(0, 0, 0, 0);
     cursor: pointer;
     height: 8.4px;
     width: 100%;
@@ -46,8 +46,8 @@ input[type=range]::-webkit-slider-runnable-track {
     border: .2px solid rgba(1, 1, 1, 0);
     border-radius: 1.3px;
     box-shadow:
-        1px 1px 1px rgba(0, 0, 0, 0),
-        0 0 1px rgba(13, 13, 13, 0);
+        0 0 1px rgba(13, 13, 13, 0),
+        1px 1px 1px rgba(0, 0, 0, 0);
     cursor: pointer;
     height: 8.4px;
     width: 100%;
@@ -147,6 +147,5 @@ input[type=range]::-webkit-slider-thumb {
 .progress__filled {
     background: #ffc600;
     flex: 0;
-    flex-basis: 50%;
     width: 50%;
 }
