@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffc600;
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+}
+
+h1 {
+    font-size: 10rem;
+    line-height: 1;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+html {
+    font-size: 10px;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.hole {
+    flex: 1 0 calc(100% / 3);
+    overflow: hidden;
+    position: relative;
+}
+
+.hole:after {
+    background: url(../assets/images/ground.svg) bottom center no-repeat;
+    background-size: contain;
+    bottom: -30px;
+    content: '';
+    display: block;
+    height: 70px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.hole.up .mole {
+    top: 0;
+}
+
+.mole {
+    background: url(../assets/images/mole.svg) bottom center no-repeat;
+    background-size: 60%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: .4s;
+    width: 100%;
+}
+
+.score {
+    background: rgba(255, 255, 255, .2);
+    border-radius: 1rem;
+    line-height: 1;
+    padding: 0 3rem;
+}

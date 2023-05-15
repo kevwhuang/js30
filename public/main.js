@@ -28,7 +28,7 @@ const manifest = [
     '27-click-scroll',
     '28-video-speed',
     '29-countdown',
-    '30-whack-a-mole',
+    '30-whac-a-mole',
 ];
 
 let pos;
