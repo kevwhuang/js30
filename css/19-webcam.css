@@ -41,10 +41,12 @@ html {
 span {
     cursor: crosshair;
     filter: invert(0);
+    font-size: 2.5vh;
     height: 5vh;
+    line-height: 0;
     position: absolute;
     right: .5rem;
-    top: 0;
+    top: 2.5vh;
     transition: .5s;
 }
 
