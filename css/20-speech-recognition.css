@@ -1,0 +1,33 @@
+body {
+    background: #ffc600;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+p {
+    margin: 0 0 3rem;
+}
+
+.words {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+    background-size: 100% 3rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, .1);
+    line-height: 3rem;
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 1rem 2rem 1rem 5rem;
+    position: relative;
+}
+
+.words:before {
+    border: 1px solid;
+    border-color: transparent #efe4e4;
+    bottom: 0;
+    content: '';
+    left: 30px;
+    position: absolute;
+    top: 0;
+    width: 4px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>23 Speech Synthesis</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/23-speech-synthesis.css">
+    <script src="../js/23-speech-synthesis.js" defer></script>
+</head>
+
+<body>
+    <div class="voiceinator">
+        <h1>Voiceinator 9000+</h1>
+        <select name="voice"></select>
+
+        <label for="rate">Rate:</label>
+        <input type="range" name="rate" min="0" max="2" step="0.1">
+
+        <label for="pitch">Pitch:</label>
+        <input type="range" name="pitch" min="0" max="2" step="0.1">
+
+        <textarea name="text">Hello! Is anyone there? 👋</textarea>
+
+        <button id="speak">Speak</button>
+        <button id="stop">Stop</button>
+    </div>
+</body>
+
+</html>
