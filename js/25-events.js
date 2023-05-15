@@ -6,5 +6,5 @@ document.querySelectorAll('div').forEach(div =>
 
 function logText(e) {
     e.stopPropagation();
-    console.log(this)
+    console.log(this);
 }
