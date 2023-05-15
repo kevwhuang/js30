@@ -8,7 +8,7 @@ body {
 }
 
 html {
-    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+    background: #018ded url(https://unsplash.it/1500/1000?image=881&blur=5);
     background-size: cover;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 10px;
@@ -44,7 +44,7 @@ html {
     top: 50%;
     transform: rotate(90deg);
     transform-origin: 100%;
-    transition: .05s;
+    transition: 0;
     transition-timing-function: cubic-bezier(.1, 2.7, .58, 1);
     width: 50%;
 }

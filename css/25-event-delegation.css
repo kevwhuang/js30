@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body {
+    background: thistle;
+    min-height: 100vh;
+}
+
 div {
     padding: 100px;
     width: 100%;
