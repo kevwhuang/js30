@@ -10,7 +10,7 @@ body {
 html {
     background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
     background-size: cover;
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 10px;
     text-align: center;
 }
@@ -21,7 +21,7 @@ html {
     box-shadow:
         0 0 0 4px rgba(0, 0, 0, .1),
         0 0 10px rgba(0, 0, 0, .2),
-        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 0 3px #efefef,
         inset 0 0 10px black;
     height: 30rem;
     margin: 50px auto;

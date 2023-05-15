@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-weight: 200;
+    margin: 0;
+    text-align: center;
+}
+
+html {
+    align-items: center;
+    background: url(../assets/images/food.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    font-family: Futura, Arial, sans-serif;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+svg {
+    background: rgba(0, 0, 0, .4);
+    border-radius: 50%;
+    fill: white;
+    margin: 40px 0;
+    padding: 20px;
+    width: 200px;
+}
+
+.add-items {
+    margin-top: 20px;
+}
+
+.add-items input {
+    border: 1px solid rgba(0, 0, 0, .1);
+    outline: 0;
+    padding: 10px;
+}
+
+.plates {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.plates input {
+    display: none;
+}
+
+.plates input+label:before {
+    content: '⬜️';
+    margin-right: 10px;
+}
+
+.plates input:checked+label:before {
+    content: '✅';
+}
+
+.plates label {
+    cursor: pointer;
+    flex: 1;
+}
+
+.plates li {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    display: flex;
+    font-weight: 100;
+    padding: 10px 0;
+}
+
+.wrapper {
+    background: rgba(255, 255, 255, .95);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, .1);
+    margin-bottom: 40px;
+    max-width: 350px;
+    padding: 20px;
+}
