@@ -2,5 +2,7 @@ body {
     background: #eee;
     font-family: monospace;
     font-size: 2rem;
+    position: relative;
     text-align: center;
+    top: 10vh;
 }
